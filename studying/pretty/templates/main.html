@@ -1,0 +1,82 @@
+{% load static %}
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Pomodoro</title>
+    <link rel="shortcut icon" href="{% static 'img/Tomato.png' %}" type="image/png">
+</head>
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+<body>
+<!--<div class = "background"></div>-->
+<div class="main">
+    <iframe class="Video" width="650" height="350" src="https://www.youtube.com/embed/jfKfPfyJRdk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <p class="statistics">Statistics</p>
+    <p class="left_arrow">ᐸ</p>
+    <p class="right_arrow">ᐳ</p>
+    <a href="mini-games/" class="mini-games">Mini-games</a>
+
+    <div class="timer-block"></div>
+        <img src="{% static 'img/шестеренка.png' %}" width="100" height="100" class="settings">
+        <form method="POST">
+            {% csrf_token %}
+            <p name="time" class="time">00:00</p>
+
+            <p class="lap">pomodoro: 1</p>
+
+            <button type="submit" class="button">Start</button>
+            <button type="submit" class="reset">Reset</button>
+        </form>
+
+    </div>
+    <p class="version">ver. 0.1</p>
+</div>
+
+<div class="popup-settings">
+    <button type="button" class="b_classic">classic 25 5 10 4</button>
+    <button type="button" class="b_hard">hard 50 10 20 4</button>
+
+    <p class="duration1">duration of pomodoro:</p>
+    <input type="number" class="i_duration1" placeholder="in minutes" min="1" max="50" value="25">
+
+    <p class="duration2">duration of short break:</p>
+    <input type="number" class="i_duration2" placeholder="in minutes" min="1" max="10" value="5">
+
+    <p class="duration3">duration of long break:</p>
+    <input type="number" class="i_duration3" placeholder="in minutes" min="1" max="20" value="10">
+
+
+    <p class="duration4">long break every:</p>
+    <input type="number" class="i_duration4" placeholder="in pomodoro" min="1" max="50" value="4">
+
+    <button type="button" class="apply">Apply</button>
+
+    <p class="close">x</p>
+</div>
+
+<div class="popup-statistics">
+    <form method="POST">
+        {% csrf_token %}
+        <p class="close">x</p>
+        <p class="username_label"> Hello, </p> 
+        <div class="username">{{user}}</div>
+        <p class="login">Login:</p>
+        <div class="login_field"> {{logform.username}} </div>
+        <p class="password">Password:</p>
+        <div class="password_field"> {{logform.password}} </div>
+        <button type="submit" class="button_sign_in">Sign-in</button>
+    </form>
+    <p class="profile">Profile</p>
+    <p class="list">List of records</p>
+    <a href="logout/" class="logout">logout</a>
+    <div class="line"></div>
+</div>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

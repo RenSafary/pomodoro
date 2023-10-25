@@ -1,0 +1,381 @@
+body{
+    background-color: #4c1a15;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.popup-statistics{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    left: 50%;
+    margin-left: -250;
+    top: 50%;
+    margin-top: -250;
+    display: none;
+    border-radius: 10px 10px;
+    border: 3px solid;
+}
+
+.login{
+    position: absolute;
+    margin-top: 190px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.login_field{
+    position: absolute;
+    margin-top: 217px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.password{
+    position: absolute;
+    margin-top: 240px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.password_field{
+    position: absolute;
+    margin-top: 267px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.profile{
+    position: absolute;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -208px;
+    font-size: 30px;
+    border: 3px solid;
+    border-radius: 25%;
+    padding: 6px 6px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.list{
+    position: absolute;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -55px;
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 25%;
+    padding: 6px 6px;
+}
+
+.line{
+    position: absolute;
+}
+
+.logout{
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border: 2px solid;
+    border-radius: 35%;
+    padding: 6px 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.username_label{
+    position: absolute;
+    margin-top: 267px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.username{
+    position: absolute;
+    margin-top: 267px;
+    left: 50%;
+    margin-left: -95px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.button_sign_in{
+    position: absolute;
+    margin-top: 297px;
+    left: 50%;
+    margin-left: -45px;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.statistics{
+    position: absolute;
+    text-decoration: none;
+    border: 3.5px solid #000;
+    border-radius: 15%;
+    padding: 8px 8px;
+    color: white;
+    background-color: #71311d;
+    margin-top: 365px;
+    left: 50%;
+    margin-left: -295px; 
+    cursor: pointer;
+}
+
+.left_arrow{
+    position: absolute;
+    border: 3.5px solid #000;
+    color: white;
+    border-radius: 15%;
+    padding: 8px 15px;
+    background-color: #a15425;
+    margin-top: 365px;
+    left: 50%;
+    margin-left: -90px;
+    cursor: pointer;
+}
+
+.right_arrow{
+    position: absolute;
+    border: 3.5px solid #000;
+    color: white;
+    border-radius: 15%;
+    padding: 8px 15px;
+    background-color: #db862b;
+    margin-top: 365px;
+    margin-left: 370px;
+    right: 50%;
+    margin-right: -110px;
+    cursor: pointer;
+}
+
+.mini-games{
+    position: absolute;
+    text-decoration: none;
+    border: 3.5px solid #000;
+    color: white;
+    border-radius: 15%;
+    padding: 8px 8px;
+    background-color: #ffca30;
+    margin-top: 365px;
+    right: 50%;
+    margin-right: -305px;
+}
+
+.Video{
+    position: absolute;
+    border: 3.5px solid;
+    margin-bottom: 600px;
+    left: 50%;
+    margin-left: -325px;
+}
+
+.button{
+    position: absolute;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(162,83,57,1) 44%, rgba(255,203,80,1) 100%);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border: 3px solid;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-top: 560px;
+    left: 50%;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.reset{
+    font-size: 21px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: absolute;
+    right: 50%;
+    margin-right: -155px;
+    margin-top: 585px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    border: 2.5px solid;
+    cursor: pointer;
+}
+
+.timer-block{
+    position: absolute;
+    padding: 110px 326px;
+    background-color: black;
+    border-radius: 10px 10px;
+    background: linear-gradient(90deg, rgba(162,83,57,1) 45%, rgba(255,153,80,1) 100%);
+    border: 3px solid;
+    margin-top: 435px;
+    left: 50%;
+    margin-left: -326px;
+    display: block;
+}
+
+.time{
+    position: absolute;
+    margin-top: 450px;
+    font-size: 50px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.lap{
+    position: absolute;
+    left: 50%;
+    margin-left: -315px;
+    margin-top: 620px;
+    opacity: 0;
+    font-weight: 700;
+}
+
+.settings{
+    position: absolute;
+    left: 50%;
+    margin-left: -310px;
+    margin-top: 450px;
+    cursor: pointer;
+}
+
+.popup-settings{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    left: 50%;
+    margin-left: -250;
+    top: 50%;
+    margin-top: -250;
+    display: none;
+    border-radius: 10px 10px;
+    border: 3px solid;
+}
+
+.close{
+    position: absolute;
+    right: 50%;
+    margin-right: -235px;
+    top: 50%;
+    margin-top: -250px;
+    cursor: pointer; 
+    
+}
+
+.b_classic{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.b_hard{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.duration1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.i_duration1{
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 270px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.duration2{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.i_duration2{
+    position: absolute;
+    margin-top: 142px;
+    margin-left: 300px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.duration3{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.i_duration3{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 277px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.duration4{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.i_duration4{
+    position: absolute;
+    margin-top: 289px;
+    margin-left: 215px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.apply{
+    position: absolute;
+    margin-top: 400px;
+    right: 50%;
+    margin-right: -35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.version{
+    position: absolute;
+    color: black;
+    top: 100%;
+    margin-top: -23px;
+    font-size: 15px;
+}
+
+.motivation{
+    position: absolute;
+    padding: 15px 15px;
+    background: white;
+    text-align: center;
+    border: 3px solid;
+    left: 1%;
+}
+
+.background{
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background-color: black;
+}
